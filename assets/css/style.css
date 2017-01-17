@@ -1,0 +1,55 @@
+body{
+	background: url("../images/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: black; 
+}
+
+*{
+	box-sizing: border-box;
+}
+
+img{ 
+	height: 150px;
+	width: 150px;
+}
+
+form{
+	text-align: center;
+}
+
+.btn{
+	margin: 4px;
+	background-color: #999999;
+	border-color: #fff;
+}
+
+.gifDiv{
+	float: left;
+	margin: 3px;
+}
+
+.container{
+	background-color: #fff;
+	opacity: 0.8;
+	padding: 20px;
+}
+
+.jumbotron{
+	background-color: inherit;
+}
+
+.jumbotron h1{
+	text-align: center;
+	color: red;
+}
+
+div#footer{
+	clear: both;
+	position: center;
+	padding: 10px;
+	margin-top: 30px;
+	bottom: 0;
+	top: 0;
+	text-align: center;
+}
